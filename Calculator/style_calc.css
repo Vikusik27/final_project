@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@100;300&family=REM:wght@200;300&display=swap');
+
+body{
+    font-family: Montserrat, 'Lilita One', 'REM', sans-serif, cursive;
+    background-color: lightgray;
+}
+
+h1{
+    font-family: Montserrat, 'Lilita One', 'REM', sans-serif, cursive;
+    color: rgb(126, 126, 126);
+    text-align: right;
+}
+
+.calc{
+    display: grid;
+    background-color: #202935;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+    padding: 4px;
+    min-width: 350px;
+    border-radius: 5px;
+    border: 3px solid #202935;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.value_field{
+    grid-column: 1/-1;
+    background:  #4676A4;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    text-align: right;
+    padding: 5px;
+}
+
+.item{
+/*    background-color: #040321;*/
+    background: #1C3752;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.number{
+    background-color: #657681;
+}
+
+.num-0{
+    grid-column: 1/3;
+}
+
+.operator{
+    background-color: #08BEA5;
+    color: #202935;
+    font-weight: bold;
+}
+.equel{
+    background: #1C3752;
+    color: white;
+}
+
+.link{
+    display: inline-block;
+    position: absolute;
+
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat, 'Lilita One', 'REM', sans-serif, cursive;
+    color: rgb(126, 126, 126);
+}

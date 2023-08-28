@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+*{
+	font-family: 'Taviraj', serif;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+
+.header{
+	background: url(https://imgcdnblog.carvaganza.com/wp-content/uploads/2020/04/Porsche-Taycan-4S.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgb(59 57 57 / 47%);
+
+}
+
+.overlay div{
+	color: white;
+	position: absolute;
+	top: 22%;
+	min-width: 100%;
+}
+
+.overlay div h1{
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.about, .trade_in, .team{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.about h1, .cars h1, .trade_in h1, .team h1{
+	padding-bottom: 1em;
+}
+
+.about div[class|="col"]{
+	padding: 0 3em;
+}
+
+.about .row .text-center{
+	border-right: 2px solid black;
+}
+.cars img{
+	box-shadow: 0 0 10px 2px;
+}
+
+.cars, .products, .feedback{
+	background: #353a40;
+	color: white;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.card{
+	color: black;
+
+}
+
+.team img{
+	border: 5px solid #353a40;
+}
+
+.teamDesc{
+	background: #353a40;
+	color: white;
+}
+
+.teamDesc span{
+	font-size: 0.8em;
+	color: lightgrey;
+}
+
+.feedback, .text-center{
+	align-self: center;
+}

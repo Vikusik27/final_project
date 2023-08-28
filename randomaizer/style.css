@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Play:wght@400;700&display=swap');
+
+body{
+    font-family: Play, Montserrat, Arial, Helvetica, sans-serif;
+/*    background: rgba(244, 244, 226, 0.484);*/
+    background: #BFCCD5;
+}
+
+form[name="ranodmaizer"], .result{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+input[type="number"]{
+    margin: 20px;
+    padding: 5px 10px;
+    border: 3px solid #1C3752;
+    border-radius: 5px;
+}
+
+input[type="number"]:hover, input[name="generate"]:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.502);
+}
+
+input[type="checkbox"]{
+    width: 30px;
+}
+
+input[name="generate"]{
+/*    background: #dce3e2;*/
+    background: #54F5D9;
+    border: 2px solid #1C3752;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+}
+
+.result{
+    margin: 25px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Play, Montserrat, Arial, Helvetica, sans-serif;
+    color: rgb(126, 126, 126);
+}
